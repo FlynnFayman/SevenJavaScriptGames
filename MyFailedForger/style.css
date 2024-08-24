@@ -1,0 +1,41 @@
+.grid {
+    border: 1px solid black;
+    height: 180px;
+    width: 180px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid div{
+    height: 20px;
+    width: 20px;
+}
+
+.ending-block{
+    background-color: red;
+
+}
+
+.starting-block{
+    background-color: orangered;
+
+}
+
+.log-left, .log-right{
+    background-color: lightblue;
+
+}
+
+.currentLog{
+    background-color: brown;
+}
+.car-left, .car-right{
+    background-color: lightgray;
+}
+
+.currentCar{
+    background-color: blanchedalmond;
+}
+.frog{
+    background-color: green;
+}
